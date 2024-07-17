@@ -29,3 +29,4 @@ def delete_book(id):
     db.session.delete(book)
     db.session.commit()
     return jsonify({"message": "Book successfully deleted"}), 204
+
